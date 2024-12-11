@@ -23,9 +23,13 @@ This project is a **User Registration and Login System** built using a backend f
 
 ## Frontend (React):
 User Registration: Form to input name, email, and password.
+
 User Login: Form to authenticate users with email and password.
+
 Session Management: JWT token is stored in localStorage to manage sessions.
+
 Protected Routes: Access to protected pages is allowed only with a valid JWT token.
+
 Error Handling: Error messages are shown for invalid inputs and login failures.
 
 ## Technologies Used
