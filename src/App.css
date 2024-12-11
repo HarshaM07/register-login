@@ -1,0 +1,128 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container */
+.form-container {
+  background: #1e2a38;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #2e3b4e;
+  color: #ffffff;
+}
+
+.form-container input::placeholder {
+  color: #c7d1db;
+}
+
+.form-container input:focus {
+  outline: none;
+  border: 2px solid #00ffff;
+  background: #2e3b4e;
+}
+
+.form-container button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #00ffff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+  background: #00cccc;
+}
+
+/* Remember Me and Forgot Password */
+.form-container .form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #c7d1db;
+  margin-top: 10px;
+}
+
+.form-container .form-options a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.form-container .form-options a:hover {
+  text-decoration: underline;
+}
+
+/* Avatar Section */
+.form-container .avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: url('https://cdn-icons-png.flaticon.com/512/147/147144.png') no-repeat center;
+  background-size: cover;
+}
+
+/* Static Table */
+.table-container {
+  margin-top: 30px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e2a38;
+  color: #ffffff;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  border: 1px solid #00ffff;
+  text-align: left;
+}
+
+.table-container th {
+  background: #00cccc;
+  font-weight: bold;
+}
+
+.table-container tr:nth-child(even) {
+  background: #2e3b4e;
+}
